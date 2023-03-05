@@ -4,14 +4,13 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
         "microphone": "*"
     },
     "files": [
         "main.blocks",
         "README.md",
         "custom.ts",
-        "main.ts"
+        "_locales/zh-TW/README.md"
     ],
     "testFiles": [
         "test.ts"
@@ -23,5 +22,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
